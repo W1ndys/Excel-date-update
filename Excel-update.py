@@ -21,7 +21,7 @@ def increment_date(text):
         year, month, day = map(int, matches[0])
         try:
             date_obj = datetime(year, month, day)
-            new_date = date_obj + timedelta(days=1)
+            new_date = date_obj + timedelta(days=7)
             new_date_str = new_date.strftime("%Y年%m月%d日")
             return re.sub(date_pattern, new_date_str, text)
         except ValueError:
