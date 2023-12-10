@@ -21,7 +21,7 @@ pip install pandas openpyxl xlrd
 然后打开控制台运行下面命令
 
 ```
-python Excel-update.py
+python Excel-time-update.py
 ```
 
 即可看到成功回显
