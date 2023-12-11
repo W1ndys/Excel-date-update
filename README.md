@@ -1,4 +1,4 @@
-# Excel-time-update
+# Excel-date-update
 
 > 一个简单的Python脚本，全程用ChatGPT生成+改报错，最终完美运行
 >
