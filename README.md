@@ -6,6 +6,10 @@
 
 # 更新日志
 
+2023年12月11日22:46:08发布了release
+
+2023年12月11日19:42:31修改了文件名字和一些细节
+
 2023年12月11日13:45:35增加了一个批处理文件，更加懒了，原来需要输入命令，现在只需要双击bat文件就可以实现了，呜呜呜懒人有懒福
 
 2023年12月10日23:12:56纠正了增加七天的bug（原来设计的是增加1天
@@ -17,6 +21,8 @@
 ```
 pip install pandas openpyxl xlrd
 ```
+
+然后[点击这里](https://github.com/W1ndys/Excel-date-update/releases/download/Excel-date-update/Excel-date-update_v1.0.zip)下载必要的文件
 
 把待转换的xlsx文件命名为1.xlsx，放在跟脚本同级目录下
 
