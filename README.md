@@ -20,13 +20,7 @@ pip install pandas openpyxl xlrd
 
 把待转换的xlsx文件命名为1.xlsx，放在跟脚本同级目录下
 
-方法一：然后双击：一键执行.bat就可以了
-
-方法二：然后打开控制台运行下面命令
-
-```
-python Excel-time-update.py
-```
+然后双击：一键执行.bat就可以了
 
 即可看到成功回显
 
