@@ -6,6 +6,8 @@
 
 # 更新日志
 
+2023年12月14日13:09:07更新了自动扫描文件目录，直接替换源文件且自动扫描目录中命名为：“22级网络空间安全班第X周手机入袋情况”的文件
+
 2023年12月11日22:46:08发布了release
 
 2023年12月11日19:42:31修改了文件名字和一些细节
@@ -24,7 +26,19 @@ pip install pandas openpyxl xlrd
 
 然后[点击这里](https://github.com/W1ndys/Excel-date-update/releases/download/Excel-date-update/Excel-date-update_v1.0.zip)下载必要的文件
 
-把待转换的xlsx文件命名为1.xlsx，放在跟脚本同级目录下
+你的Excel文件名字应该是XX级XX班第X周手机入袋情况
+
+所以打开文件 `date-update.py`
+
+修改第26行代码
+
+```
+file_name_template = r"22级网络空间安全班第(\d+)周手机入袋情况.xlsx"
+```
+
+把这个名字改为适合你的情况的名字，例如99级一班第(\d+)周情况.xlsx。
+
+注意：这个名字除了(\d+)其余部分均可修改，只需要改为待转换文件名一致就可以，(\d+)是整形数字的通配符
 
 然后双击：一键执行.bat就可以了
 
